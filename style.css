@@ -231,6 +231,13 @@ footer {
     height: 30px;
     align-items: center;
 }
+#mailDsi {
+    color: #FFFF;
+    text-decoration: underline;
+}
+#submit {
+    background-color: #FD8A69;
+}
 .iconContainer div {
     /* padding-right: 10px; */
 }

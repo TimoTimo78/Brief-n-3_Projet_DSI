@@ -12,6 +12,7 @@ body {
 .darkMode {
     display: flex;
     justify-content: flex-end;
+     margin: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Audiowide', sans-serif;
@@ -97,7 +98,6 @@ div #imgReunion {
     grid-template-rows: repeat(12, 1fr)
 }
 .boxCentrale {
-    border: 1px solid black;
     border-radius: 10px;
     width: 300px;
     height: 300px;
@@ -182,7 +182,7 @@ div #imgReunion {
     display: flex;
     justify-content: center;
 }
-.graphic #camembert {
+.graphic #camebac{
     width: 90%;
     border-radius: 10px;
 }
@@ -210,9 +210,14 @@ footer {
 #formulaire {
     grid-column: 5;
     align-items: center;
-    
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #43648b;
+    height: 80%;
     color: #FFFF;
     background-color: #11417D;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px;
 
 }
 #contact h2 {
@@ -265,6 +270,9 @@ footer {
     flex-direction: column;
 }
 #btn {
-
+    height: 30px;
+    margin-top: 20px;
     background-color: #FD8A69;
+    color: #FFFF;
+    font-size: 18px;
 }

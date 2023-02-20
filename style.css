@@ -258,6 +258,7 @@ footer {
     text-decoration: underline;
     font-style: normal;
     font-family: sans-serif;
+    text-shadow: 2px 2px 1px #3F4244;
 }
 .vertical_line {
    border-right: 3px solid #FFFF;
@@ -277,4 +278,7 @@ footer {
     background-color: #FD8A69;
     color: #FFFF;
     font-size: 18px;
+}
+.icon {
+    color: #11417D;
 }

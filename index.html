@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href=https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@300&display=swap rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ProjetDSI</title>
+</head>
+
+<body>
+    <div class="darkMode"><button id="darkTrigger">Activer le thème sombre</button></div>
+    <nav>
+        <ul class="navBar">
+            <div class="logodsi">
+                <img src="img/logoDSIMed.png" alt="logodsi">
+            </div>
+            <li><a href="#">NOS FORMATIONS</a></li>
+            <li><a href="#">NOUS RECRUTONS</a></li>
+            <li><a href="#">NOS MÉTIERS</a></li>
+            <li><a href="#">VOS AVANTAGES</a></li>
+            <li><a href="#">NOUS CONNAÎTRE</a></li>
+            <li><a href="#">ACUALITÉS</a></li>
+            <li><a href="#">NOUS CONTACTEZ</a></li>
+        </ul>
+    </nav>
+    <header class="bann">
+        <div class="paraTitreImag">
+            <div id="Left">
+                <h1 class="colorT"><span>CDA </span>SOPHIA 2023</h1>
+                <p class="colorT">
+                    Notre organisation peut aider les employeurs et
+                    les employés à naviguer sur les questions liées au
+                    handicap au travail et à trouver des solutions pour
+                    créer un environnement de travail plus inclusif.
+                </p>
+            </div>
+            <div id="containerImg"><img id="imgReunion" src="/img/img_reunion.jpg" alt="img d'une réunion" width="780px" height="455px"/></div>
+        </div>
+
+    </header>
+    <main class="container">
+        <div class="boxCentrale shadow box b1"><a href="#"><p class="colorText">qu'est-ce qu'une entreprise adaptée</p></a></div>
+        <div class="boxCentrale shadow box b2"><a href="#"><p class="colorText">le role du référent handicap</p></a></div>
+        <div class="boxCentrale shadow box b3"><a href="#"><p class="colorText">méthode d'intégration</p></a></div>
+        <div class="boxCentrale shadow box b4"><a href="#"><p class="colorText">particularité du recrutement</p></a></div>
+        <h2 id="titreCentral"><big>DÉCOUVREZ NOS FORMATIONS</big></h2>
+        <div class="boxCentrale shadow box b5"><a href="#"><p class="colorText">le maintien dans l'emploi</p></a></div>
+        <div class="boxCentrale shadow box b6"><a href="#"><p class="colorText">l'oeth</p></a></div>
+        <div class="boxCentrale shadow box b7"><a href="#"><p class="colorText">le handicap au travail</p></a></div>
+        <div class="boxCentrale shadow box b8"><a href="#"><p class="colorText">le handicap</p></a></div>
+        <div class="graphic"><img id="camebac" src="img/camebac.PNG" alt="statistiques avec camembert graphique"/></div>
+    </main>
+    <footer>
+        <div id="contact">
+            <h2>CONTACTEZ NOUS</h2>
+            <p>80 Route des Lucioles</p>
+            <p>Les Espaces de Sophia</p>
+            <p>Batiment K</p>
+            <p>06560 VALBONNE</p>
+            <p id="tel">Tél: 05 62 74 10 00</p>
+            <p><a id="mailDsi" href="accueil@dsi-ap.com" #FFFF>accueil@dsi-ap.com</a></p>
+            <div id="iconContainer">
+                <div><a class="icon" href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                <div><a class="icon" href="#"><i class="fa-brands fa-twitter"></i></a></div>
+                <div><a class="icon" href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
+            </div>
+        </div>
+        <div class="vertical_line"><span></span></div>
+        <div id="formulaire">
+            <form method="post" action="traitement.php">
+                <div class="contact2"><label for="name">Nom Prénom</label>
+                    <input type="text" name="" id="name"></div>
+                <div class="contact2"><label for="entreprise">Entreprise</label>
+                    <input type="text" name="" id="entreprise"></div>
+                <div class="contact2"><label for="mail">Email</label>
+                    <input type="text" name="" id="mail"></div>
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

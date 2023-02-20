@@ -209,9 +209,11 @@ footer {
 }
 #formulaire {
     grid-column: 5;
-    /* justify-content: center; */
-    /* flex-direction: column; */
+    align-items: center;
+    
     color: #FFFF;
+    background-color: #11417D;
+
 }
 #contact h2 {
     padding-bottom: 10px;
@@ -234,9 +236,6 @@ footer {
 #mailDsi {
     color: #FFFF;
     text-decoration: underline;
-}
-#submit {
-    background-color: #FD8A69;
 }
 .iconContainer div {
     /* padding-right: 10px; */
@@ -264,4 +263,8 @@ footer {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
+}
+#btn {
+
+    background-color: #FD8A69;
 }

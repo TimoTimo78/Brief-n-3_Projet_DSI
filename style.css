@@ -72,7 +72,7 @@ div #imgReunion {
 }
 .colorT {
     color: #FFFF;
-    font-size: 25px;
+    font-size: 20px;
 }
 .paraTitreImag {
     display: flex;
@@ -106,7 +106,7 @@ div #imgReunion {
 }
 .box {
     text-align: center;
-    color: #ffff;
+    color: #FFFF;
     text-transform: uppercase;
     font-weight: 600;
     display: flex;

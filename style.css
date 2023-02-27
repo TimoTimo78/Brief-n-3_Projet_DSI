@@ -24,7 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     /* box-shadow: hsla(240, 5%, 41%, 0.2) 0px 7px 29px 0px; */
-    background-color: #989999;
+    background-color: #D2DBE2;
     position: relative;
     top: 0;
     left: 0;
@@ -504,8 +504,8 @@ footer {
         display: flex;
     }
     a .icon {
-        grid-column: 2/3;
-        grid-row: 2/3;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
         display: flex;
     }
 }

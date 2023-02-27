@@ -1,88 +1,118 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href=https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@300&display=swap rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>ProjetDSI</title>
-</head>
-
-<body>
-    <div class="darkMode"><button id="darkTrigger">Activer le thème sombre</button></div>
-    <nav>
-        <ul class="navBar">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href=https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@300&display=swap rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+        <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <title>Site DSI MED 2</title>
+    </head>
+    <body>
+        <header>
+            <div class="darkMode"><button id="darkTrigger">Activer le thème sombre</button></div>
             <div class="logodsi">
                 <img src="img/logoDSIMed.png" alt="logodsi">
             </div>
-            <li><a href="#">NOS FORMATIONS</a></li>
-            <li><a href="#">NOUS RECRUTONS</a></li>
-            <li><a href="#">NOS MÉTIERS</a></li>
-            <li><a href="#">VOS AVANTAGES</a></li>
-            <li><a href="#">NOUS CONNAÎTRE</a></li>
-            <li><a href="#">ACUALITÉS</a></li>
-            <li><a href="#">NOUS CONTACTEZ</a></li>
-        </ul>
-    </nav>
-    <header class="bann">
-        <div class="paraTitreImag">
-            <div id="Left">
-                <h1 class="colorT"><span>CDA </span>SOPHIA 2023</h1>
-                <p class="colorT">
-                    Notre organisation peut aider les employeurs et
-                    les employés à naviguer sur les questions liées au
-                    handicap au travail et à trouver des solutions pour
-                    créer un environnement de travail plus inclusif.
-                </p>
-            </div>
-            <div id="containerImg"><img id="imgReunion" src="img/imgReu.jpg" alt="img d'une réunion" width="780px" height="455px"/></div>
-        </div>
-
-    </header>
-    <main class="container">
-        <div class="boxCentrale shadow box b1"><a href="#"><p class="colorT">qu'est-ce qu'une entreprise adaptée</p></a></div>
-        <div class="boxCentrale shadow box b2"><a href="#"><p class="colorT">le role du référent handicap</p></a></div>
-        <div class="boxCentrale shadow box b3"><a href="#"><p class="colorT">méthode d'intégration</p></a></div>
-        <div class="boxCentrale shadow box b4"><a href="#"><p class="colorT">particularité du recrutement</p></a></div>
-        <h2 id="titreCentral">DÉCOUVREZ NOS FORMATIONS</h2>
-        <div class="boxCentrale shadow box b5"><a href="#"><p class="colorT">le maintien dans l'emploi</p></a></div>
-        <div class="boxCentrale shadow box b6"><a href="#"><p class="colorT">l'oeth</p></a></div>
-        <div class="boxCentrale shadow box b7"><a href="#"><p class="colorT">le handicap au travail</p></a></div>
-        <div class="boxCentrale shadow box b8"><a href="#"><p class="colorT">le handicap</p></a></div>
-        <div class="graphic"><img id="camebac" src="img/camebac.PNG" alt="statistiques avec camebac graphique"/></div>
-    </main>
-    <footer>
-        <div id="contact">
-            <h2>CONTACTEZ NOUS</h2>
-            <p>80 Route des Lucioles</p>
-            <p>Les Espaces de Sophia</p>
-            <p>Batiment K</p>
-            <p>06560 VALBONNE</p>
-            <p id="tel">Tél: 05 62 74 10 00</p>
-            <p><a id="mailDsi" href="accueil@dsi-ap.com">accueil@dsi-ap.com</a></p>
-            <div id="iconContainer">
-                <div><a class="icon" href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
-                <div><a class="icon" href="#"><i class="fa-brands fa-twitter"></i></a></div>
-                <div><a class="icon" href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
+            <nav class="nav">
+                <div class="navBurger">
+                    <a class="btnBurger" href="img/menu-hamburger.svg"><ion-icon name="menu"></ion-icon></a>
+                </div>
+                <ul class="list-unstyled">
+                    <li class="header nav list-unstyled"><a href="#">NOS FORMATIONS</a></li>
+                    <li class="header nav list-unstyled"><a href="#">NOUS RECRUTONS</a></li>
+                    <li class="header nav list-unstyled"><a href="#">NOS MÉTIERS</a></li>
+                    <li class="header nav list-unstyled"><a href="#">VOS AVANTAGES</a></li>
+                    <li class="header nav list-unstyled"><a href="#">NOUS CONNAÎTRE</a></li>
+                    <li class="header nav list-unstyled"><a href="#">ACUALITÉS</a></li>
+                    <li class="header nav list-unstyled"><a href="#">NOUS CONTACTEZ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="bann">
+            <div class="paraTitreImag">
+                <div id="Left">
+                    <h1 class="colorT"><span>CDA </span>SOPHIA 2023</h1>
+                    <p class="colorT">
+                        Notre organisation peut aider les employeurs et
+                        les employés à naviguer sur les questions liées au
+                        handicap au travail et à trouver des solutions pour
+                        créer un environnement de travail plus inclusif.
+                    </p>
+                </div>
+                <div id="containerImg"><img id="imgReunion" src="img/imgReu.jpg" alt="img d'une réunion" width="780px"
+                        height="455px"></div>
             </div>
         </div>
-        <div class="vertical_line"><span></span></div>
-        <div id="formulaire">
-            <form method="post" action="traitement.php">
-                <div class="contact2"><label for="name">Nom Prénom</label>
-                    <input type="text" name="" id="name"></div>
-                <div class="contact2"><label for="entreprise">Entreprise</label>
-                    <input type="text" name="" id="entreprise"></div>
-                <div class="contact2"><label for="mail">Email</label>
-                    <input type="text" name="" id="mail"></div>
-                <div class="contact2">
-                    <input id="btn" type="submit" value="Envoyer"></div>
-            </form>
-        </div>
-    </footer>
+        <main class="container">
+            <div class="boxCentrale shadow box b1"><a href="#">
+                    <p class="colorT">qu'est-ce qu'une entreprise adaptée</p>
+                </a></div>
+            <div class="boxCentrale shadow box b2"><a href="#">
+                    <p class="colorT">le role du référent handicap</p>
+                </a></div>
+            <div class="boxCentrale shadow box b3"><a href="#">
+                    <p class="colorT">méthode d'intégration</p>
+                </a></div>
+            <div class="boxCentrale shadow box b4"><a href="#">
+                    <p class="colorT">particularité du recrutement</p>
+                </a></div>
+            <div id="title"><h2 id="titreCentral">DÉCOUVREZ NOS FORMATIONS</h2></div>
+            <div class="boxCentrale shadow box b5"><a href="#">
+                    <p class="colorT">le maintien dans l'emploi</p>
+                </a></div>
+            <div class="boxCentrale shadow box b6"><a href="#">
+                    <p class="colorT">l'oeth</p>
+                </a></div>
+            <div class="boxCentrale shadow box b7"><a href="#">
+                    <p class="colorT">le handicap au travail</p>
+                </a></div>
+            <div class="boxCentrale shadow box b8"><a href="#">
+                    <p class="colorT">le handicap</p>
+                </a></div>
+            <div class="graphic"><img id="camebac" src="img/camebac.PNG" alt="statistiques avec camebac graphique"></div>
+            <div class="graphic"><img id="camembertMobile" src="img/cam_Mobile.jpg" alt="statistiques avec camembert graphique" srcset="img/camebac.PNG 847w, img/cam_Mobile.jpg 853w"></div>
+        </main>
+        <footer>
+            <div id="contact">
+                <h2>CONTACTEZ NOUS</h2>
+                <p>80 Route des Lucioles</p>
+                <p>Les Espaces de Sophia</p>
+                <p>Batiment K</p>
+                <p>06560 VALBONNE</p>
+                <p id="tel">Tél: 05 62 74 10 00</p>
+                <p><a id="mailDsi" href="accueil@dsi-ap.com">accueil@dsi-ap.com</a></p>
+                <div id="iconContainer">
+                    <div><a class="icon" href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                    <div><a class="icon" href="#"><i class="fa-brands fa-twitter"></i></a></div>
+                    <div><a class="icon" href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                </div>
+            </div>
+            <div class="vertical_line"><span></span></div>
+            <div id="formulaire">
+                <form method="post" action="traitement.php">
+                    <div class="contact2"><label for="name">Nom Prénom</label>
+                        <input type="text" name="" id="name">
+                    </div>
+                    <div class="contact2"><label for="entreprise">Entreprise</label>
+                        <input type="text" name="" id="entreprise">
+                    </div>
+                    <div class="contact2"><label for="mail">Email</label>
+                        <input type="text" name="" id="mail">
+                    </div>
+                    <div class="contact2">
+                        <input id="btn" type="submit" value="Envoyer">
+                    </div>
+                </form>
+            </div>
+        </footer>
+    </body>
+    </html>
 </body>
 </html>

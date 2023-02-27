@@ -19,9 +19,6 @@ a, a:hover {
     text-decoration: none;
     color: black;
 }
-.icon {
-    color: #11417D;
-}
 header {
     display: flex;
     justify-content: space-between;
@@ -111,7 +108,7 @@ ul>li {
             flex-direction: column;
         }
     } */
-    /* ======================BANNIERE===================== */
+    /* ====================================BANNIERE==================================== */
     .bann {
     height: 623px;
     background: linear-gradient(#11417D, #FFF);
@@ -167,7 +164,7 @@ ul>li {
         height: auto;
     }
 }
-/* ==========================MAIN======================= */
+/* ====================================MAIN==================================== */
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -391,7 +388,7 @@ main div > a {
         /* margin: 0 50px; */
     }
 }
-/* ===============FOOTER================= */
+/* ====================================FOOTER==================================== */
 footer {
     height: 695px;
     display: grid;
@@ -434,7 +431,17 @@ footer {
     display: flex;
     flex-direction: column;
 }
+.icon {
+    color: #11417D;
+}
+#mailDsi {
+    color: #fff;
+}
 #btn {
+    border-top: 1px solid #11417D;
+    border-left: 1px solid #11417D;
+    border-right-color: 1px #11417D;
+    border-bottom: 1px solid #11417D;
     background-color: #FD8A69;
     height: 40px;
     margin-top: 30px;
@@ -494,6 +501,11 @@ footer {
     #formulaire {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
+        display: flex;
+    }
+    a .icon {
+        grid-column: 3/4;
+        grid-row: 3/4;
         display: flex;
     }
 }

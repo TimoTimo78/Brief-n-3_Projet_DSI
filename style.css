@@ -555,14 +555,17 @@ footer {
 .icon {
     color: #11417D;
 }
+#tel {
+    color: #FFF;
+}
 #mailDsi {
     color: #fff;
 }
 #btn {
     border-top: 1px solid #11417D;
-    border-left: 1px solid #11417D;
     border-right-color: 1px #11417D;
     border-bottom: 1px solid #11417D;
+    border-left: 1px solid #11417D;
     background-color: #FD8A69;
     height: 40px;
     margin-top: 30px;
@@ -598,9 +601,23 @@ footer {
     justify-content: center;
     margin-top: 15px;
 }
+/* .icon2 {
+    display: none;
+    justify-content: center;
+    width: 20px;
+
+
+} */
 #spaceIcon {
     margin: 0 15px 0 15px;
 }
+@media screen and (min-width: 602px) {
+    
+    #iconContainer2 {
+        display: none;
+    }
+} 
+
 @media screen and (max-width: 600px) {
     footer {
         width: auto;
@@ -616,17 +633,22 @@ footer {
         margin-top: 50px;
     }
     #iconContainer {
-        display: flex;
+        display: none;
         justify-content: center;
+    }
+    #iconContainer2 {
+        display: flex;
+
     }
     #formulaire {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
         display: flex;
     }
-    a .icon {
-        grid-column: 2 / 3;
-        grid-row: 2 / 3;
+    .icon2 {
         display: flex;
+        /* grid-column: 2 / 3;
+        grid-row: 2 / 3; */
+        
     }
 }

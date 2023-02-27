@@ -19,6 +19,9 @@ a, a:hover {
     text-decoration: none;
     color: black;
 }
+.icon {
+    color: #11417D;
+}
 header {
     display: flex;
     justify-content: space-between;
